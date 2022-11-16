@@ -1,8 +1,8 @@
-package edu.cmu.cs.cs214.rec11.plugin;
+package edu.cmu.cs.cs214.rec10.Plugin;
 
-import edu.cmu.cs.cs214.rec11.framework.core.GameFramework;
-import edu.cmu.cs.cs214.rec11.framework.core.GamePlugin;
-import edu.cmu.cs.cs214.rec11.games.TicTacToe;
+import edu.cmu.cs.cs214.rec10.framework.core.GameFramework;
+import edu.cmu.cs.cs214.rec10.framework.core.GamePlugin;
+import edu.cmu.cs.cs214.rec10.games.TicTacToe;
 
 public class TicTacToePlugin implements GamePlugin<TicTacToe.Player> {
     private static final String GAME_START_FOOTER = "Let's play Tic Tac Toe!";
